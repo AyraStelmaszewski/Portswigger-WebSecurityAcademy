@@ -21,3 +21,8 @@ Authorization vulnerabilities occurs when an attacker try to bypass permissions 
 Server-side request forgery is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location. <br>
 In a typical SSRF attack, the attacker might cause the server to make a connection to internal-only services within the organization's infrastructure. <br> In other cases, they may be able to force the server to connect to arbitrary external systems. 
 
+## File upload vulnerabilities
+File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size.
+
+## 
+
