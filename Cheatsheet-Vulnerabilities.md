@@ -24,5 +24,6 @@ In a typical SSRF attack, the attacker might cause the server to make a connecti
 ## File upload vulnerabilities
 File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size.
 
-## 
+## Command injection 
+A command injection permits the execution of arbitrary operating system commands by an attacker on the server hosting an application. <br> As a result, the application and all its data can be fully compromised. <br> The execution of these commands typically allows the attacker to gain unauthorized access or control over the application's environment and underlying system.
 
