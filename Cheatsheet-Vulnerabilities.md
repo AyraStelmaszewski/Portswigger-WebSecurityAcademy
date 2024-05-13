@@ -27,3 +27,5 @@ File upload vulnerabilities are when a web server allows users to upload files t
 ## Command injection 
 A command injection permits the execution of arbitrary operating system commands by an attacker on the server hosting an application. <br> As a result, the application and all its data can be fully compromised. <br> The execution of these commands typically allows the attacker to gain unauthorized access or control over the application's environment and underlying system.
 
+## SQL Injection 0
+SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve.
