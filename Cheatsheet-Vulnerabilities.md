@@ -33,3 +33,8 @@ SQL injection (SQLi) is a web security vulnerability that allows an attacker to 
 ## Mass assignment vulnerabilities
 Mass assignment (also known as auto-binding) can inadvertently create hidden parameters. It occurs when software frameworks automatically bind request parameters to fields on an internal object. Mass assignment may therefore result in the application supporting parameters that were never intended to be processed by the developer.
 
+## Server-side parameter pollution
+Some systems contain internal APIs that aren't directly accessible from the internet. Server-side parameter pollution occurs when a website embeds user input in a server-side request to an internal API without adequate encoding.
+
+
+
