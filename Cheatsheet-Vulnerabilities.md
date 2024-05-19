@@ -27,5 +27,9 @@ File upload vulnerabilities are when a web server allows users to upload files t
 ## Command injection 
 A command injection permits the execution of arbitrary operating system commands by an attacker on the server hosting an application. <br> As a result, the application and all its data can be fully compromised. <br> The execution of these commands typically allows the attacker to gain unauthorized access or control over the application's environment and underlying system.
 
-## SQL Injection 0
+## SQL Injection 
 SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve.
+
+## Mass assignment vulnerabilities
+Mass assignment (also known as auto-binding) can inadvertently create hidden parameters. It occurs when software frameworks automatically bind request parameters to fields on an internal object. Mass assignment may therefore result in the application supporting parameters that were never intended to be processed by the developer.
+
